@@ -1,0 +1,698 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+*:focus, textarea:focus, input:focus {
+  outline: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+body {
+  background-color: #333;
+}
+
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+::-moz-placeholder {
+  color: #000;
+}
+
+/* FF 19+ */
+:-moz-placeholder {
+  color: #000;
+}
+
+/* FF 18- */
+:-ms-input-placeholder {
+  color: #000;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .custom-select select {
+    padding-right: 18px;
+  }
+}
+/*Base End*/
+.box-sizing, .boxSizing, .stickyMainNav {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*@include opacity(0.41);*/
+.transitionAll, #plane_wrap {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.mTop0 {
+  margin-top: 0 !important;
+}
+
+.mBtm0 {
+  margin-bottom: 80px !important;
+}
+
+.gapLeft-m50 {
+  margin-left: -50px !important;
+}
+
+.onlyMobile {
+  display: none;
+}
+
+.thisNone {
+  display: none !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*anim start*/
+@-webkit-keyframes clouds {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-moz-keyframes clouds {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-o-keyframes clouds {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@keyframes clouds {
+  from {
+    left: 50px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-webkit-keyframes clouds1 {
+  from {
+    left: 350px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-moz-keyframes clouds1 {
+  from {
+    left: 350px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-o-keyframes clouds1 {
+  from {
+    left: 350px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@keyframes clouds1 {
+  from {
+    left: 350px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-webkit-keyframes clouds2 {
+  from {
+    left: 417px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-moz-keyframes clouds2 {
+  from {
+    left: 417px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-o-keyframes clouds2 {
+  from {
+    left: 417px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@keyframes clouds2 {
+  from {
+    left: 417px;
+  }
+  to {
+    left: 120%;
+  }
+}
+@-webkit-keyframes plane {
+  from {
+    top: 55px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@-moz-keyframes plane {
+  from {
+    top: 55px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@-o-keyframes plane {
+  from {
+    top: 55px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@keyframes plane {
+  from {
+    top: 55px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@-webkit-keyframes parashoot {
+  from {
+    top: 55px;
+  }
+  50% {
+    top: 72px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@-moz-keyframes parashoot {
+  from {
+    top: 55px;
+  }
+  50% {
+    top: 72px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@-o-keyframes parashoot {
+  from {
+    top: 55px;
+  }
+  50% {
+    top: 72px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@keyframes parashoot {
+  from {
+    top: 55px;
+  }
+  50% {
+    top: 72px;
+  }
+  to {
+    top: 55px;
+  }
+}
+@-webkit-keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes moveBbg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8000px 0;
+  }
+}
+@-moz-keyframes moveBbg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8000px 0;
+  }
+}
+@-o-keyframes moveBbg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8000px 0;
+  }
+}
+@keyframes moveBbg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -8000px 0;
+  }
+}
+@-webkit-keyframes run {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4200px;
+  }
+}
+@-moz-keyframes run {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4200px;
+  }
+}
+@-o-keyframes run {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4200px;
+  }
+}
+@keyframes run {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -4200px;
+  }
+}
+.allAnim .clouds {
+  -webkit-animation-duration: 603s;
+  -moz-animation-duration: 603s;
+  -o-animation-duration: 603s;
+  animation-duration: 603s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: clouds;
+  -moz-animation-name: clouds;
+  -o-animation-name: clouds;
+  animation-name: clouds;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .clouds1 {
+  -webkit-animation-duration: 603s;
+  -moz-animation-duration: 603s;
+  -o-animation-duration: 603s;
+  animation-duration: 603s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: clouds1;
+  -moz-animation-name: clouds1;
+  -o-animation-name: clouds1;
+  animation-name: clouds1;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .clouds2 {
+  -webkit-animation-duration: 53s;
+  -moz-animation-duration: 53s;
+  -o-animation-duration: 53s;
+  animation-duration: 53s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: clouds2;
+  -moz-animation-name: clouds2;
+  -o-animation-name: clouds2;
+  animation-name: clouds2;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim #plane_wrap {
+  -webkit-animation-duration: 25s;
+  -moz-animation-duration: 25s;
+  -o-animation-duration: 25s;
+  animation-duration: 25s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: plane;
+  -moz-animation-name: plane;
+  -o-animation-name: plane;
+  animation-name: plane;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .parashoot {
+  -webkit-animation-duration: 115s;
+  -moz-animation-duration: 115s;
+  -o-animation-duration: 115s;
+  animation-duration: 115s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parashoot;
+  -moz-animation-name: parashoot;
+  -o-animation-name: parashoot;
+  animation-name: parashoot;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .sun {
+  -webkit-animation-duration: 85s;
+  -moz-animation-duration: 85s;
+  -o-animation-duration: 85s;
+  animation-duration: 85s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: sun;
+  -moz-animation-name: sun;
+  -o-animation-name: sun;
+  animation-name: sun;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .horizontal-scroll {
+  -webkit-animation-duration: 400s;
+  -moz-animation-duration: 400s;
+  -o-animation-duration: 400s;
+  animation-duration: 400s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: moveBbg;
+  -moz-animation-name: moveBbg;
+  -o-animation-name: moveBbg;
+  animation-name: moveBbg;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .taleAnim {
+  -webkit-animation-duration: 60s;
+  -moz-animation-duration: 60s;
+  -o-animation-duration: 60s;
+  animation-duration: 60s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: moveBbg;
+  -moz-animation-name: moveBbg;
+  -o-animation-name: moveBbg;
+  animation-name: moveBbg;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.allAnim .walk-right {
+  -webkit-animation-duration: 9s;
+  -moz-animation-duration: 9s;
+  -o-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: run;
+  -moz-animation-name: run;
+  -o-animation-name: run;
+  animation-name: run;
+  -webkit-animation-timing-function: steps(17);
+  -moz-animation-timing-function: steps(17);
+  -o-animation-timing-function: steps(17);
+  animation-timing-function: steps(17);
+}
+
+.animMain {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0 auto;
+}
+.animMain .background_wrap {
+  background-color: #fff;
+}
+.animMain .inner {
+  width: 1030px;
+  margin: 0 auto;
+}
+.animMain .sprite {
+  width: 242px;
+  height: 350px;
+  margin-top: -380px;
+  position: relative;
+  z-index: 1;
+}
+.animMain .right {
+  background: url(../images/stand.png) no-repeat 0 0;
+  position: relative;
+  z-index: 3;
+}
+.animMain .walk-right {
+  background-image: url(../images/man-all.png);
+}
+.animMain .animStart_wrap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.animMain #plane_wrap {
+  position: absolute;
+  top: 55px;
+  left: 75%;
+  z-index: 90;
+}
+.animMain .plane_body {
+  width: 70px;
+}
+.animMain .plane_body img {
+  width: 100%;
+}
+.animMain .clouds {
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  width: 400px;
+}
+.animMain .clouds1 {
+  position: absolute;
+  top: 30px;
+  left: 30%;
+  width: 400px;
+}
+.animMain .clouds2 {
+  position: relative;
+  top: 97px;
+  left: 45%;
+  width: 36px;
+}
+.animMain .parashoot {
+  position: absolute;
+  top: 97px;
+  left: 62%;
+  width: 36px;
+}
+.animMain .parashoot.two {
+  width: 60px;
+  top: 17px;
+  left: 20%;
+}
+.animMain .sun {
+  position: absolute;
+  top: 97px;
+  left: 40%;
+  width: 74px;
+  z-index: 0;
+}
+.animMain .animBg1 {
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: auto;
+}
+.animMain .horizontal-scroll {
+  width: 100%;
+}
+.animMain .topAnim {
+  height: 308px;
+  background: transparent url(../images/bg1.png) repeat-x;
+  position: relative;
+  z-index: 1;
+}
+.animMain .taleAnim {
+  height: 272px;
+  margin-top: -38px;
+  background: url(../images/bg2.png) repeat-x;
+  position: relative;
+  z-index: 2;
+}
+.animMain .allAnim .taleAnim {
+  -webkit-animation: backgroundScroll 60s linear infinite;
+  background: url(../images/bg2.png) repeat-x;
+}
+.animMain .inner {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/*anim end*/
