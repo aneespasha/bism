@@ -7,6 +7,13 @@
 	<link rel="stylesheet" href="css/anim.css">
 	<link rel="stylesheet" href="css/mediaquiries.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,700,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+			$(".se-pre-con").fadeOut("slow");
+		  $("header").sticky({ topSpacing: 0 });
+		});
+	</script>
 
 </head>
 <body>
@@ -458,7 +465,7 @@
 </div>
 
 </div>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/jquery.sticky.js"></script>
 	<script>
@@ -514,10 +521,7 @@
 		});
 		});//]]>  
 
-		$(window).load(function(){
-			$(".se-pre-con").fadeOut("slow");
-		  $("header").sticky({ topSpacing: 10 });
-		});
+		
   </script>
 
 </body>
