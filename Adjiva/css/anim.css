@@ -1,0 +1,166 @@
+/*anim start*/
+@-webkit-keyframes clouds {
+  from {
+    right: -50px;
+    transform: rotate(20deg);
+  }
+  to {
+    right: 0;
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes clouds {
+  from {
+    right: -50px;
+    transform: rotate(20deg);
+  }
+  to {
+    right: 0;
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes clouds {
+  from {
+    right: -50px;
+    transform: rotate(20deg);
+  }
+  to {
+    right: 0;
+    transform: rotate(0deg);
+  }
+}
+@keyframes clouds {
+  from {
+    right: -50px;
+    transform: rotate(20deg);
+  }
+  to {
+    right: 0;
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes sun {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes moveBbg {
+  from {
+    background-color: #1be994;
+  }
+  to {
+    background-color: #f1b21a;
+  }
+}
+@-moz-keyframes moveBbg {
+  from {
+    background-color: #1be994;
+  }
+  to {
+    background-color: #f1b21a;
+  }
+}
+@-o-keyframes moveBbg {
+  from {
+    background-color: #1be994;
+  }
+  to {
+    background-color: #f1b21a;
+  }
+}
+@keyframes moveBbg {
+  from {
+    background-color: #1be994;
+  }
+  to {
+    background-color: #f1b21a;
+  }
+}
+
+.step1 .pic.two > img {
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  -o-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-name: clouds;
+  -moz-animation-name: clouds;
+  -o-animation-name: clouds;
+  animation-name: clouds;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.step1 .pic.three > img {
+  -webkit-animation-duration: 85s;
+  -moz-animation-duration: 85s;
+  -o-animation-duration: 85s;
+  animation-duration: 85s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: sun;
+  -moz-animation-name: sun;
+  -o-animation-name: sun;
+  animation-name: sun;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+.step1 {
+  -webkit-animation-duration: 40s;
+  -moz-animation-duration: 40s;
+  -o-animation-duration: 40s;
+  animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: moveBbg;
+  -moz-animation-name: moveBbg;
+  -o-animation-name: moveBbg;
+  animation-name: moveBbg;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+/*anim end*/
+

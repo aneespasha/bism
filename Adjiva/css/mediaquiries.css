@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 1024px) {
+
+	.containner{width: 100%}
+}
+/*tab start*/
+@media screen and (max-width: 800px) {
+	
+}
+/*moblie start*/
+@media screen and (max-width: 600px) {
+	.onlyMobile{display: block;}
+}
